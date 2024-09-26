@@ -64,8 +64,9 @@ a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
-
-h1,
+h1{
+  color:#fff2d7 ;
+}
 h2,
 h3,
 h4,
@@ -449,7 +450,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding:60px;
   overflow: clip;
 }
 
@@ -582,6 +583,15 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about{
+  text-align: center;
+  justify-content: center;
+  color: #ffffff !important;
+  background-color: #2e151b;
+  margin-bottom: 20px;
+
+}
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -607,6 +617,9 @@ section,
   margin-right: 5px;
   color: var(--accent-color);
   line-height: 0;
+}
+.rounded-pill:hover{
+  background-color: pink;
 }
 
 /*--------------------------------------------------------------
@@ -1442,6 +1455,3 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
