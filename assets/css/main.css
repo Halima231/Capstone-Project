@@ -139,7 +139,7 @@ h6 {
   bottom: 0;
   padding: 0 15px;
   transition: all ease-in-out 0.3s;
-  overflow-y: auto;
+  overflow-y: hidden;
   z-index: 997;
   min-width: 200px;
 }
